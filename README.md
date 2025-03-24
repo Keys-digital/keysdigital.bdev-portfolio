@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Keys Digital Portfolio
+A Next.js + TypeScript portfolio showcasing my backend development expertise and projects.
+Features
+Modern UI/UX – Sleek and professional design
+Next.js & TypeScript – Scalable and maintainable architecture
+Dynamic Content – Skills, Projects, Recent Work, and Contact sections
+Animated Components – Smooth transitions and interactive UI
+Optimized Performance – Fast-loading images and clean code
+Mobile Responsive – Fully responsive across all devices
 
-## Getting Started
+Getting Started
+To run this project locally:
+1️. Clone the Repository
+git clone https://github.com/Keys-digital/keys.dev-portfolio.git
+cd keys.dev-portfolio
 
-First, run the development server:
+Install Dependencies
+npm install
 
-```bash
+# or
+
+yarn install
+
+# or
+
+pnpm install
+
+Start the Development Server
 npm run dev
+
 # or
+
 yarn dev
+
 # or
+
 pnpm dev
-# or
-bun dev
-```
+The project will be available at http://localhost:3000.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Project Structure
+/public # Static assets (images, PDFs, icons, etc.)
+/src
+/app # Next.js App Router structure
+/about
+/contact
+/projects
+/recentprojects
+/skills
+── layout.tsx
+── page.tsx
+/components # Reusable UI components
+/styles # Global & component-specific styles
+tailwind.config.js # Tailwind CSS configuration
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Tech Stack
+Frontend: Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion
+Backend: Node.js, Express.js (for API integrations)
+Database: MongoDB (for dynamic content)
+Deployment: Vercel / AWS (coming soon)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+How to Contribute
+Want to improve this project? Follow these steps:
 
-## Learn More
+1. Fork the repo
+2. Create a new branch (git checkout -b feature-branch)
+3. Commit your changes (git commit -m "Added new feature")
+4. Push to GitHub (git push origin feature-branch)
+5. Open a Pull Request
 
-To learn more about Next.js, take a look at the following resources:
+Deployment
+This project is intended for deployment on Vercel. You can deploy it in one click:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contact Me
+Light Ikoyo – Backend Software Engineer
+Email: eseogheneikoyo23@gmail.com
+GitHub: Keys Digital
+LinkedIn: [Insert Profile Link]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you like this project, give it a star!
+git add README.md
+git commit -m "Added project README"
+git push origin master
