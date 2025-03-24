@@ -10,7 +10,7 @@ Mobile Responsive – Fully responsive across all devices
 
 Getting Started
 To run this project locally:
-1️. Clone the Repository
+1. Clone the Repository
 git clone https://github.com/Keys-digital/keys.dev-portfolio.git
 cd keys.dev-portfolio
 
