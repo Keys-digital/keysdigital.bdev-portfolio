@@ -118,7 +118,7 @@ const RecentProjects = () => {
               "/dashboardui.png",
               "/e-commerce.png",
               "/softwaremockup.png",
-              "/affiliatemarketing.png",
+              "https://keysdevportfolio.netlify.app/affiliatemarketing.png",
             ]}
           />
 
