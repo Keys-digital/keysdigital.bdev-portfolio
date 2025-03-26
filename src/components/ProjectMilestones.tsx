@@ -1,8 +1,8 @@
 const milestones = [
-  { name: "Authentication & RBAC", status: "✅ Completed" },
-  { name: "Product & Blog API", status: "🟡 In Progress" },
-  { name: "Frontend UI & Dashboard", status: "🟡 In Progress" },
-  { name: "AWS Deployment", status: "🔴 Pending" },
+  { name: "Authentication & RBAC", status: " Completed" },
+  { name: "Product & Blog API", status: " In Progress" },
+  { name: "Frontend UI & Dashboard", status: " In Progress" },
+  { name: "AWS Deployment", status: " Pending" },
 ];
 
 const ProjectMilestones = () => {

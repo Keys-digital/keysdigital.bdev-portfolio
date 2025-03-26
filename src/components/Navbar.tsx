@@ -17,7 +17,7 @@ const Navbar: React.FC = () => {
       </Link>
 
       {/* Navbar Links */}
-      <div className="flex space-x-6">
+      <div className="flex gap-x-4">
         <Link
           href="/about"
           className="text-gray-300 px-4 py-2 rounded hover:bg-teal-400 hover:text-white transition"
@@ -37,25 +37,28 @@ const Navbar: React.FC = () => {
           Projects
         </Link>
         <Link
-          href="/recentprojects"
-          className="text-gray-300 px-4 py-2 rounded hover:bg-teal-400 hover:text-white transition"
-        >
-          Recent Projects
-        </Link>
-        <Link
           href="/contact"
           className="text-gray-300 px-4 py-2 rounded hover:bg-teal-400 hover:text-white transition"
         >
           Contact
         </Link>
 
-        {/* Resume Button */}
+        {/* View Resume Button (opens in a new tab) */}
+        <a
+          href="/resume.pdf"
+          target="_blank"
+          className="border border-teal-400 text-teal-400 px-4 py-2 rounded hover:bg-teal-400 hover:text-white transition-all duration-300 ease-in-out"
+        >
+          View Resume
+        </a>
+
+        {/* Download Resume Button */}
         <a
           href="/resume.pdf"
           download
           className="border border-teal-400 text-teal-400 px-4 py-2 rounded hover:bg-teal-400 hover:text-white transition-all duration-300 ease-in-out"
         >
-          Resume
+          Download Resume
         </a>
       </div>
     </nav>

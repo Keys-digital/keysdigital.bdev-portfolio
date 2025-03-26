@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
         </p>
       </div>
 
-      {/* ✅ Updated CTA Button with Next.js Link */}
+      {/* Updated CTA Button with Next.js Link */}
       <Link href="/recentprojects">
         <button className="mt-6 ml-12 border border-teal-400 text-teal-400 px-6 py-3 rounded hover:bg-teal-400 hover:text-white transition-all duration-300 ease-in-out">
           View My Recent Projects!

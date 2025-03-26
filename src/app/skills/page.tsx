@@ -32,7 +32,7 @@ const skillsData = [
   {
     name: "Technical Documentation & Code Refactoring",
     level: 85,
-    color: "bg-gray-300",
+    color: "bg-grey-300",
   },
   {
     name: "CI/CD Pipelines (GitHub Actions, Jenkins)",
@@ -62,7 +62,7 @@ const categories = [
   },
   {
     title: "Cloud Deployment & DevOps",
-    icon: "/cd-devops.png",
+    icon: "/cddvops.png",
     description:
       "Skilled in AWS, CI/CD pipelines, Docker, and Git, ensuring seamless cloud-based deployment, scalability, and automation for high-performance applications.",
   },
@@ -91,13 +91,14 @@ const Skills: React.FC = () => {
 
   return (
     <section className="min-h-screen w-full flex flex-col justify-center items-center bg-gradient-to-b from-[#0a192f] to-transparent px-6 py-12">
-      <h1 className="text-4xl font-bold text-teal-400">My Skills</h1>
-      <p className="text-gray-300 text-lg mt-2">
+      {/* Hero Text */}
+      <h1 className="text-4xl font-bold text-teal-400 mt-22">My Skills</h1>
+      <p className="text-gray-300 text-lg mb-12 text-center max-w-lg">
         I create backend solutions that are functional and built to last.
       </p>
 
       {/* Skill Categories */}
-      <div className="mt-10 grid gap-6 md:grid-cols-3">
+      <div className="mb-12 grid gap-6 md:grid-cols-3">
         {categories.map((category, index) => (
           <div
             key={index}
@@ -119,11 +120,11 @@ const Skills: React.FC = () => {
         ))}
       </div>
 
-      {/* Skill Progress Bars */}
+      {/* Skills Progress Bars */}
       <div className="mt-12 w-full max-w-3xl">
         {currentSkills.map((skill, index) => (
           <div key={index} className="mb-4">
-            <p className="text-gray-300">{skill.name}</p>
+            <p className="text-[#040720] font-medium">{skill.name}</p>
             <div className="w-full bg-gray-700 h-4 rounded-md overflow-hidden">
               <div
                 className={`${skill.color} h-4 transition-all duration-700`}

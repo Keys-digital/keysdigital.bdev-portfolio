@@ -1,5 +1,5 @@
-// 📂 src/components/ProjectGallery.tsx
-"use client"; // ✅ This must be the first line
+// src/components/ProjectGallery.tsx
+"use client"; //  This must be the first line
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
@@ -18,9 +18,9 @@ const ProjectGallery = ({ images }: { images: string[] }) => {
     <div className="relative w-full h-[300px] mt-6">
       <Image
         src={images[index]}
-        alt="Project Screenshot"
-        width={800}
-        height={300}
+        alt="Project Screenshot ${index + 1}`"
+        width={640}
+        height={640}
         className="rounded-lg mx-auto"
       />
     </div>
