@@ -54,7 +54,7 @@ const RecentProjects = () => {
             }`}
           />
           <p className="text-white text-sm font-normal mt-2 text-center italic">
-            "Think Keys, Shop Strategically"
+            &quot;Think Keys, Shop Strategically&quot;
           </p>
         </div>
       </section>
@@ -79,8 +79,8 @@ const RecentProjects = () => {
               ShopInKeys – The Ultimate Tech & Wellness Affiliate Hub
             </h3>
             <p className="text-gray-400 italic">
-              "Empowering Smart Shopping & Wellness Through Tech-Driven
-              Insights" 
+              &quot;Empowering Smart Shopping &amp; Wellness Through Tech-Driven
+              Insights&quot;
             </p>
             <p className="mt-4 text-gray-300">
               In the growing world of wearable tech and wellness, consumers
@@ -111,7 +111,7 @@ const RecentProjects = () => {
 
           {/* Screenshot Gallery (ShopInKeys Logo Removed) */}
           <ProjectGallery
-             images={[
+            images={[
               "/promopix.png",
               "/techworkspace.png",
               "/codingui.png",
