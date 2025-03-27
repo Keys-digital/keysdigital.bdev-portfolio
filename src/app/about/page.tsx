@@ -6,7 +6,10 @@ import Link from "next/link";
 
 const About: React.FC = () => {
   return (
-    <section className="relative w-full min-h-screen flex justify-center items-center bg-gradient-to-b from-[#0a192f] to-transparent overflow-hidden">
+    <section className="fixed top-0 left-0 w-full min-h-screen justify-center items-center overflow-hidden">
+      {/* Background Gradient Layer */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0a192f] to-transparent z-0"></div>
+
       {/* Animated Background */}
       <div
         className="absolute inset-0 bg-cover bg-center opacity-40 animate-moveBackground"
@@ -15,7 +18,7 @@ const About: React.FC = () => {
 
       <div className="relative z-10 flex flex-col md:flex-row items-center max-w-5xl mx-auto px-6 md:px-12">
         {/* Image Section - Centered Image */}
-        <div className="mt-10 md:mt-0">
+        <div className="mt-10 md:mt-[80px]">
           <div className="relative w-80 h-96  md:w-80 md:h-[340px] p-2 bg-[#e9dc93] rounded-lg border-5 border-gray-500 shadow-lg flex justify-center items-center">
             <Image
               src="/photo.me.png" // Ensure correct path and extension
@@ -28,7 +31,7 @@ const About: React.FC = () => {
         </div>
 
         {/* Text Content - Improved Contrast */}
-        <div className="mt-4 md:mt-0 md:ml-12 text-white">
+        <div className="mt-4 md:mt-0 md:ml-12 md:mt-[80px] text-white">
           <h1 className="text-4xl font-bold mt-20 md:mt-[80px] text-teal-300 text-white stroke-gray-800 drop-shadow-lg">
             Light Ikoyo
           </h1>
