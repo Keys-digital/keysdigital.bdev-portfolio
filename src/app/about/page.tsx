@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const About: React.FC = () => {
   return (
-    <section className="fixed top-0 left-0 w-full min-h-screen justify-center items-center overflow-hidden">
+    <section className="w-full justify-center items-center">
       {/* Background Gradient Layer */}
       <div className="absolute inset-0 bg-gradient-to-b from-[#0a192f] to-transparent z-0"></div>
 

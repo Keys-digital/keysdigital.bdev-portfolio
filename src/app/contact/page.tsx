@@ -57,7 +57,7 @@ export default function ContactPage() {
   return (
     <>
       <motion.div
-        className="min-h-screen text-white flex flex-col items-center justify-start px-6 lg:px-24 overflow-auto"
+        className="text-white flex flex-col items-center justify-start px-6 lg:px-24 overflow-auto"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5 }}

@@ -90,7 +90,7 @@ const Skills: React.FC = () => {
   }, []);
 
   return (
-    <section className="min-h-screen w-full flex flex-col justify-center items-center bg-gradient-to-b from-[#0a192f] to-transparent px-6 py-12">
+    <section className="w-full flex flex-col justify-center items-center bg-gradient-to-b from-[#0a192f] to-transparent px-6 py-12">
       {/* Hero Text */}
       <h1 className="text-4xl font-bold text-teal-400 mt-22">My Skills</h1>
       <p className="text-gray-300 text-lg mb-12 text-center max-w-lg">
