@@ -15,19 +15,21 @@ const About: React.FC = () => {
 
       <div className="relative z-10 flex flex-col md:flex-row items-center max-w-5xl mx-auto px-6 md:px-12">
         {/* Image Section - Centered Image */}
-        <div className="relative w-80 h-96  md:w-80 md:h-[340px] p-2 bg-[#e9dc93] rounded-lg border-5 border-gray-500 shadow-lg flex justify-center items-center">
-          <Image
-            src="/photo.me.png" // Ensure correct path and extension
-            alt="Light Ikoyo"
-            width={270} // Adjust image size to fit
-            height={270} // Adjust image size to fit
-            className="object-contain rounded-lg relative -mt-4 md:-mt-6 drop-shadow-[2px_2px_0px_rgba(31,41,55,1)] "
-          />
+        <div className="mt-10 md:mt-0">
+          <div className="relative w-80 h-96  md:w-80 md:h-[340px] p-2 bg-[#e9dc93] rounded-lg border-5 border-gray-500 shadow-lg flex justify-center items-center">
+            <Image
+              src="/photo.me.png" // Ensure correct path and extension
+              alt="Light Ikoyo"
+              width={270} // Adjust image size to fit
+              height={270} // Adjust image size to fit
+              className="object-contain rounded-lg relative -mt-4 md:-mt-6 drop-shadow-[2px_2px_0px_rgba(31,41,55,1)] "
+            />
+          </div>
         </div>
 
         {/* Text Content - Improved Contrast */}
-        <div className="mt-8 md:mt-0 md:ml-12 text-white">
-          <h1 className="text-4xl font-bold text-teal-300 text-white stroke-gray-800 drop-shadow-lg">
+        <div className="mt-4 md:mt-0 md:ml-12 text-white">
+          <h1 className="text-4xl font-bold mt-20 md:mt-[80px] text-teal-300 text-white stroke-gray-800 drop-shadow-lg">
             Light Ikoyo
           </h1>
           <p className="text-xl text-gray-100 mt-2 font-medium text-white stroke-gray-800 drop-shadow-lg border-b-1 border-blue-400">
