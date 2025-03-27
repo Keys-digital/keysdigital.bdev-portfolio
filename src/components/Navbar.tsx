@@ -4,18 +4,22 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-const Navbar: React.FC = () => {
+interface NavbarProps {
+  className?: string;
+}
+
+const Navbar: React.FC<NavbarProps> = ({ className }) => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
       {/* Fixed Navbar */}
-      <nav className="fixed w-full top-0 z-10 bg-[#0a192f] px-10 py-6 flex justify-between items-center">
+      <nav className={`fixed w-full top-0 z-10 bg-[#0a192f] px-10 py-6 flex justify-between items-center ${className}`}>
         {/* Logo with Link */}
         <Link href="/">
           <Image
             src="/logo.png" // Ensure this file is in `/public`
-            alt="Logo"
+            alt="Keys Digital Creations Logo"
             width={60} // Adjust size as needed
             height={60}
             className="drop-shadow-[0_0_10px_rgba(0,255,255,0.5)] transition-transform duration-300 hover:scale-105"

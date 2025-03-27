@@ -68,7 +68,7 @@ const ProjectsPage = () => {
   );
 
   return (
-    <div className="w-full flex flex-col items-center bg-gray-900 text-white py-12 px-6 mt-[10px]">
+    <div className="w-full flex flex-col items-center bg-gray-900 text-white py-12 px-6 mt-[5px]">
       {/* Page Title */}
       <h1 className="text-4xl font-bold text-center mb-6">My Projects</h1>
       <p className="text-lg text-gray-300 text-center mb-12">
