@@ -114,7 +114,7 @@ const Navbar: React.FC<NavbarProps> = ({ className }) => {
 
       {/* Mobile Navigation Menu */}
       {menuOpen && (
-        <div className="fixed top-20 inset-x-0 bg-[#0a192f] z-10 md:hidden px-10 py-6 flex flex-col gap-y-4">
+        <div className="fixed top-20 inset-x-0 bg-[#0a192f] z-50 md:hidden px-10 py-6 flex flex-col gap-y-4">
           <Link
             href="/about"
             className="text-gray-300 px-4 py-2 rounded hover:bg-teal-400 hover:text-white transition"

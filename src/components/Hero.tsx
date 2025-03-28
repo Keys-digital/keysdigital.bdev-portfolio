@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const Hero: React.FC = () => {
   return (
-    <section className="h-screen flex flex-col justify-center items-center md:items-start px-6 md:px-20 bg-[#0a192f] text-white text-center md:text-left">
+    <section className="min-h-screen flex flex-col justify-center items-center md:items-start px-6 md:px-20 bg-[#0a192f] text-white text-center md:text-left">
       {/* Intro Text */}
       <div className="ml-12 mt-32 md:mt-[80px]">
         <p className="text-teal-400 text-lg md:text-xl">Hi, my name is</p>
