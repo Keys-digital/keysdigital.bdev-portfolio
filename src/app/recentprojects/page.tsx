@@ -85,9 +85,9 @@ const RecentProjects = () => {
             <p className="mt-4 text-gray-300">
               In the growing world of wearable tech and wellness, consumers
               struggle to find trusted insights. ShopInKeys is a{" "}
-              <strong>one-stop platform</strong> integrating expert reviews,
-              community engagement, and seamless affiliate shopping to enhance
-              decision-making.
+              <strong className="text-blue-200">one-stop platform</strong>{" "}
+              integrating expert reviews, community engagement, and seamless
+              affiliate shopping to enhance decision-making.
             </p>
           </div>
 
@@ -150,12 +150,23 @@ const RecentProjects = () => {
                 <p className="text-gray-400 italic">
                   &quot;Showcasing My Work, Skills, and Expertise&quot;
                 </p>
-                <p className="mt-4 text-gray-300">
+                <p className="mt-4 text-gray-300 leading-relaxed">
                   This portfolio is built to highlight my latest projects,
-                  technical skills, and contact details. Designed with a
-                  **modern UI/UX**, it offers a **smooth user experience**,
-                  **performance optimization**, and full **mobile
-                  responsiveness**.
+                  technical skills, and contact details. Designed with a&nbsp;
+                  <strong className="text-blue-200">modern UI/UX</strong>, it
+                  offers a{" "}
+                  <strong className="text-blue-200">
+                    smooth user experience
+                  </strong>
+                  ,
+                  <strong className="text-blue-200">
+                    performance optimization
+                  </strong>
+                  , and full{" "}
+                  <strong className="text-blue-200">
+                    mobile responsiveness
+                  </strong>
+                  .
                 </p>
               </div>
 

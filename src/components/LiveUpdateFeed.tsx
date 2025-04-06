@@ -1,7 +1,7 @@
 const updates = [
   { date: "March 20, 2025", detail: "Implemented JWT authentication" },
   { date: "March 22, 2025", detail: "CI/CD pipeline configured" },
-  { date: "March 24, 2025", detail: "Frontend integration in progress" },
+  { date: "March 24, 2025", detail: "Frontend integration completed" },
 ];
 
 const LiveUpdateFeed = () => {
