@@ -182,9 +182,10 @@ const RecentProjects = () => {
                   "/keysdevportfolio.png",
                   "/keysdevportfolio.1.png",
                   "/keysdevportfolio.2.png",
-                  "/keysdevportfolio.3.png",
+                  "/keysdevportfolio.5.png",
                   "/keysdevportfolio.4.png",
                   "/keysdevportfolio.7.png",
+                  "/keysdevportfolio.6.png",
                 ]}
               />
 
