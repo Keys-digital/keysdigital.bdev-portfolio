@@ -19,9 +19,10 @@ const ProjectGallery = ({ images }: { images: string[] }) => {
       <Image
         src={images[index]}
         alt={`Project Screenshot ${index + 1}`}
-        width={640} 
+        width={640}
         height={640}
         className="rounded-lg object-cover"
+        priority={index === 0}
       />
     </div>
   );
