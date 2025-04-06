@@ -41,6 +41,7 @@
   "homepage": "https://github.com/Keys-digital/keysdigital.bdev-portfolio#readme",
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
+    "browserslist": "^4.24.4",
     "framer-motion": "^12.6.3",
     "next": "^15.2.3",
     "nodemailer": "^6.10.0",

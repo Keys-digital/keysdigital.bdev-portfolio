@@ -21,7 +21,7 @@ const About: React.FC = () => {
         <div className="mt-10 md:mt-[80px]">
           <div className="relative w-80 h-96  md:w-80 md:h-[340px] p-2 bg-[#e9dc93] rounded-lg border-5 border-gray-500 shadow-lg flex justify-center items-center">
             <Image
-              src="/photo.me.png" // Ensure correct path and extension
+              src="/photo.png" // Ensure correct path and extension
               alt="Light Ikoyo"
               width={270} // Adjust image size to fit
               height={270} // Adjust image size to fit

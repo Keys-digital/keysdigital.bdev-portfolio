@@ -8,7 +8,7 @@ const Hero: React.FC = () => {
       <div className="ml-12 mt-32 md:mt-[80px]">
         <p className="text-teal-400 text-lg md:text-xl">Hi, my name is</p>
         <h1 className="text-4xl md:text-6xl font-bold mt-2">Light Ikoyo.</h1>
-        <h2 className="text-xl md:text-2xl font-semibold text-teal-300 mt-2 max-w-xl relative text-shine">
+        <h2 className="text-xl md:text-2xl font-semibold text-teal-300 mt-2 max-w-xl relative animate-shine text-glow">
           I craft backend systems that power seamless user experiences.
         </h2>
         <p className="text-gray-400 max-w-xl mt-4 leading-relaxed">
