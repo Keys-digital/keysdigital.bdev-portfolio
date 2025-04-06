@@ -1,38 +1,68 @@
 {
-  "name": "keys.dev-portfolio",
-  "version": "0.1.0",
-  "private": true,
+  "name": "keysdigital.bdev-portfolio",
+  "version": "1.0.0",
+  "description": "Keys Digital Portfolio",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keys-digital/keysdigital.bdev-portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "MERN",
+    "TypeScript",
+    "TailwindCSS",
+    "React",
+    "Next.js",
+    "E-commerce",
+    "web-development",
+    "SEO",
+    "server-side-rendering",
+    "SSR",
+    "full-stack",
+    "backend",
+    "frontend",
+    "AWS",
+    "CI/CD",
+    "Docker"
+  ],
+  "author": "Light Ikoyo",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Keys-digital/keysdigital.bdev-portfolio/issues"
+  },
+  "homepage": "https://github.com/Keys-digital/keysdigital.bdev-portfolio#readme",
   "dependencies": {
-    "@hookform/resolvers": "^4.1.3",
-    "@netlify/plugin-nextjs": "^5.10.1",
-    "framer-motion": "^12.5.0",
-    "next": "15.2.3",
+    "@hookform/resolvers": "^5.0.1",
+    "framer-motion": "^12.6.3",
+    "next": "^15.2.3",
     "nodemailer": "^6.10.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "react-hook-form": "^7.54.2",
+    "react-hook-form": "^7.55.0",
     "react-icons": "^5.5.0",
-    "resend": "^4.1.2",
+    "resend": "^4.2.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@eslint/eslintrc": "^3.3.1",
+    "@tailwindcss/postcss": "^4.1.3",
+    "@types/node": "^22.14.0",
     "@types/nodemailer": "^6.4.17",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.1",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9",
-    "eslint-config-next": "15.2.3",
+    "eslint": "^9.24.0",
+    "eslint-config-next": "^15.2.4",
     "postcss": "^8.5.3",
-    "tailwindcss": "^4.0.15",
-    "typescript": "^5"
+    "tailwindcss": "^4.1.3",
+    "typescript": "^5.8.3"
   }
 }

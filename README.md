@@ -1,21 +1,27 @@
 Keys Digital Portfolio
-A Next.js + TypeScript portfolio showcasing my backend development expertise and projects.
+
+A sleek Next.js + TypeScript portfolio showcasing my backend engineering skills and recent work. Built with scalability, clean architecture, and modern design in mind.
+Live URL: Coming soon on Vercel
+GitHub Repo: github.com/Keys-digital/keysdigital.bdev-portfolio
+
 Features
-Modern UI/UX – Sleek and professional design
-Next.js & TypeScript – Scalable and maintainable architecture
-Dynamic Content – Skills, Projects, Recent Work, and Contact sections
-Animated Components – Smooth transitions and interactive UI
-Optimized Performance – Fast-loading images and clean code
-Mobile Responsive – Fully responsive across all devices
+• Modern UI/UX – Clean, elegant design system
+• TypeScript + App Router – Strong typing and maintainability
+• Dynamic Sections – Projects, Skills, Recent Work, Contact
+• Framer Motion – Smooth animations & user interactions
+• Optimized Assets – Fast-loading images and responsive layout
+• Mobile First – Fully responsive across all screen sizes
+
+Tech Stack
+Frontend Backend Animations Styling Deployment Database (optional)
 
 Getting Started
-To run this project locally:
-1. Clone the Repository
-   git clone https://github.com/Keys-digital/keys.dev-portfolio.git
-   cd keys.dev-portfolio
 
-Install Dependencies
-npm install
+1. Clone the Repo
+   git clone https://github.com/Keys-digital/keysdigital.bdev-portfolio.git
+   cd keysdigital.bdev-portfolio
+2. Install Dependencies
+   npm install
 
 # or
 
@@ -23,9 +29,7 @@ yarn install
 
 # or
 
-pnpm install
-
-Start the Development Server
+pnpm install 3. Start Development Server
 npm run dev
 
 # or
@@ -35,48 +39,46 @@ yarn dev
 # or
 
 pnpm dev
-The project will be available at http://localhost:3000.
+Visit http://localhost:3000 in your browser.
 
-Project Structure
-/public # Static assets (images, PDFs, icons, etc.)
+Folder Structure
+/public # Static assets (images, icons, etc.)
 /src
-/app # Next.js App Router structure
-/about
-/contact
-/projects
-/recentprojects
-/skills
-── layout.tsx
-── page.tsx
+/app # App Router-based route structure
+─ /about
+─ /contact
+─ /projects
+─ /recentprojects
+─ /skills
+─ layout.tsx
+─ page.tsx
 /components # Reusable UI components
-/styles # Global & component-specific styles
-tailwind.config.js # Tailwind CSS configuration
+/styles # Tailwind & global styles
+tailwind.config.js # Tailwind configuration
 
-Tech Stack
-Frontend: Next.js (App Router), TypeScript, Tailwind CSS, Framer Motion
-Backend: Node.js, Express.js (for API integrations)
-Database: MongoDB (for dynamic content)
-Deployment: Vercel / AWS (coming soon)
+Deploying to Vercel
+This project is fully optimized for deployment on Vercel.
+Simply import the repository from GitHub and deploy instantly.
+• Auto preview URLs
+• CI/CD enabled
+• Custom domain support
 
-How to Contribute
-Want to improve this project? Follow these steps:
+Contributing
 
-1. Fork the repo
-2. Create a new branch (git checkout -b feature-branch)
-3. Commit your changes (git commit -m "Added new feature")
-4. Push to GitHub (git push origin feature-branch)
-5. Open a Pull Request
+1. Fork the repository
+2. Create your feature branch: git checkout -b feature/amazing-feature
+3. Commit your changes: git commit -m "Add amazing feature"
+4. Push to the branch: git push origin feature/amazing-feature
+5. Open a pull request
 
-Deployment
-This project is intended for deployment on Vercel. You can deploy it in one click:
-
-Contact Me
+Contact
 Light Ikoyo – Backend Software Engineer
 Email: eseogheneikoyo23@gmail.com
 GitHub: Keys Digital
-LinkedIn: [Insert Profile Link]
+LinkedIn: [Insert Your LinkedIn Profile]
 
-If you like this project, give it a star!
+Support
+If you like this project, show some love by giving it a star!
 git add README.md
-git commit -m "Added project README"
-git push origin master
+git commit -m " Enhanced README with badges & visuals"
+git push origin main

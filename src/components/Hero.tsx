@@ -8,12 +8,12 @@ const Hero: React.FC = () => {
       <div className="ml-12 mt-32 md:mt-[80px]">
         <p className="text-teal-400 text-lg md:text-xl">Hi, my name is</p>
         <h1 className="text-4xl md:text-6xl font-bold mt-2">Light Ikoyo.</h1>
-        <h2 className="text-xl md:text-2xl font-semibold text-teal-300 mt-2 max-w-xl relative">
+        <h2 className="text-xl md:text-2xl font-semibold text-teal-300 mt-2 max-w-xl relative text-shine">
           I craft backend systems that power seamless user experiences.
         </h2>
         <p className="text-gray-400 max-w-xl mt-4 leading-relaxed">
           Building scalable, secure, and high-performance backend solutions, I
-          am a backend software engineer specializing in
+          am a backend software engineer specializing in&nbsp;
           <strong>Node.js, Express.js, and MongoDB</strong>. From designing
           robust RESTful APIs to optimizing cloud-based deployments, I transform
           ideas into efficient, scalable applications.

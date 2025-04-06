@@ -84,9 +84,10 @@ const RecentProjects = () => {
             </p>
             <p className="mt-4 text-gray-300">
               In the growing world of wearable tech and wellness, consumers
-              struggle to find trusted insights. ShopInKeys is a **one-stop
-              platform** integrating expert reviews, community engagement, and
-              seamless affiliate shopping to enhance decision-making.
+              struggle to find trusted insights. ShopInKeys is a{" "}
+              <strong>one-stop platform</strong> integrating expert reviews,
+              community engagement, and seamless affiliate shopping to enhance
+              decision-making.
             </p>
           </div>
 
@@ -134,67 +135,78 @@ const RecentProjects = () => {
             </Link>
 
             {/* Keys Digital Portfolio Project */}
- <div className="mt-12 bg-gray-800 p-6 rounded-lg shadow-lg mb-12">
-  <Image
-    src="/keysdevportfoliohomepage.png"
-    alt="Keys Digital Portfolio hompage image"
-    width={1200}
-    height={500}
-    className="rounded-lg"
-  />
-  <div className="mt-6">
-    <h3 className="text-2xl font-bold">
-      Portfolio Website – Keys Digital Portfolio
-    </h3>
-    <p className="text-gray-400 italic">
-      &quot;Showcasing My Work, Skills, and Expertise&quot;
-    </p>
-    <p className="mt-4 text-gray-300">
-      This portfolio is built to highlight my latest projects, technical skills, and contact details. Designed with a **modern UI/UX**, it offers a **smooth user experience**, **performance optimization**, and full **mobile responsiveness**.
-    </p>
-  </div>
+            <div className="mt-12 bg-gray-800 p-6 rounded-lg shadow-lg mb-12">
+              <Image
+                src="/keysdevportfoliohomepage.png"
+                alt="Keys Digital Portfolio hompage image"
+                width={1200}
+                height={500}
+                className="rounded-lg"
+              />
+              <div className="mt-6">
+                <h3 className="text-2xl font-bold">
+                  Portfolio Website – Keys Digital Portfolio
+                </h3>
+                <p className="text-gray-400 italic">
+                  &quot;Showcasing My Work, Skills, and Expertise&quot;
+                </p>
+                <p className="mt-4 text-gray-300">
+                  This portfolio is built to highlight my latest projects,
+                  technical skills, and contact details. Designed with a
+                  **modern UI/UX**, it offers a **smooth user experience**,
+                  **performance optimization**, and full **mobile
+                  responsiveness**.
+                </p>
+              </div>
 
-            {/* Live Updates & Milestones */}
+              {/* Live Updates & Milestones */}
               <div className="mt-6">
                 <h4 className="text-xl font-semibold">Development Status</h4>
                 <LiveUpdateFeed />
-                <ProjectMilestones /> 
+                <ProjectMilestones />
               </div>
 
-  {/* Tech Stack Badges */}
-  <TechStackBadges stack={["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"]} />
+              {/* Tech Stack Badges */}
+              <TechStackBadges
+                stack={[
+                  "Next.js",
+                  "TypeScript",
+                  "Tailwind CSS",
+                  "Framer Motion",
+                ]}
+              />
 
-  {/* Screenshot Gallery */}
-  <ProjectGallery
-    images={[
-      "/keysdevportfolio.png",
-      "/keysdevportfolio.1.png",
-      "/keysdevportfolio.2.png",
-      "/keysdevportfolio.3.png",
-      "/keysdevportfolio.4.png",
-      "/keysdevportfolio.7.png",
-    ]}
-  />
+              {/* Screenshot Gallery */}
+              <ProjectGallery
+                images={[
+                  "/keysdevportfolio.png",
+                  "/keysdevportfolio.1.png",
+                  "/keysdevportfolio.2.png",
+                  "/keysdevportfolio.3.png",
+                  "/keysdevportfolio.4.png",
+                  "/keysdevportfolio.7.png",
+                ]}
+              />
 
-  {/* Links & CTA */}
-  <div className="mt-6 flex flex-wrap gap-4">
-    <Link
-      href="https://github.com/Keys-digital/keys.dev-portfolio"
-      target="_blank"
-      className="flex items-center bg-gray-700 px-4 py-2 rounded-md hover:bg-gray-600 transition"
-    >
-      <FaGithub className="mr-2" />
-      View on GitHub
-    </Link>
-    <Link
-      href="https://keysdevportfolio.netlify.app/"
-      target="_blank"
-      className="bg-green-600 px-6 py-2 rounded-md text-white hover:bg-green-500 transition"
-    >
-      Live Demo
-    </Link>
-  </div>
-</div>
+              {/* Links & CTA */}
+              <div className="mt-6 flex flex-wrap gap-4">
+                <Link
+                  href="https://github.com/Keys-digital/keys.dev-portfolio"
+                  target="_blank"
+                  className="flex items-center bg-gray-700 px-4 py-2 rounded-md hover:bg-gray-600 transition"
+                >
+                  <FaGithub className="mr-2" />
+                  View on GitHub
+                </Link>
+                <Link
+                  href="https://keysdevportfolio.netlify.app/"
+                  target="_blank"
+                  className="bg-green-600 px-6 py-2 rounded-md text-white hover:bg-green-500 transition"
+                >
+                  Live Demo
+                </Link>
+              </div>
+            </div>
 
             <Link
               href="/contact"

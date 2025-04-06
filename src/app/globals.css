@@ -24,6 +24,28 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@keyframes shine {
+  0% {
+    opacity: 0;
+    color: #ff5733; /* Start with a bright color */
+    text-shadow: 0 0 5px rgba(255, 87, 51, 0.5); /* Add a glowing effect */
+  }
+  50% {
+    opacity: 1;
+    color: #ffc300; /* Change to a different color halfway */
+    text-shadow: 0 0 10px rgba(255, 195, 0, 0.8); /* Brighter glow effect */
+  }
+  100% {
+    opacity: 0;
+    color: #ff5733; /* Back to original color */
+    text-shadow: 0 0 5px rgba(255, 87, 51, 0.5); /* Reset glow */
+  }
+}
+
+.element {
+  animation: shine 2s linear infinite;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
